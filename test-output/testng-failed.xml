@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MakeMyTrip test suite]">
+  <test thread-count="5" name="Holiday packaes test case(failed)">
+    <classes>
+      <class name="testCases.Holiday_packages">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+          <include name="verify_TheVisa_Free_Country"/>
+        </methods>
+      </class> <!-- testCases.Holiday_packages -->
+    </classes>
+  </test> <!-- Holiday packaes test case(failed) -->
+</suite> <!-- Failed suite [MakeMyTrip test suite] -->
